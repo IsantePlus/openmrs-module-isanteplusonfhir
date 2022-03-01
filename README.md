@@ -1,15 +1,9 @@
-# iSantePlus Laboratory Workflows Module
+# iSantePlus FHIR Workflows Module
 
 ## Overview
-This module provides support for FHIR-based communication between iSantePlus and a FHIR-enabled 
-Laboratory Information System (LIS) like OpenELIS.
-
-The laboratory workflows supported by this module are based on 
-[OpenHIE specifications](https://guides.ohie.org/arch-spec/introduction/laboratory-work-flows) and the 
-[FHIR Workflow Module](https://build.fhir.org/workflow-module.html) resources and communication patterns.  
-
-The technical and functional specification for the workflows supported by this module can be found in the following
-[FHIR Implementation Guide](https://build.fhir.org/ig/FHIR/ig-guidance/): https://i-tech-uw.github.io/laboratory-workflows-ig
+This module provides support for FHIR-based communication for iSantePlus using the OpenMRS FHIR2 module. This module
+implements the required custom mappings between the iSantePlus data model and FHIR resources in places where the iSantePlus
+and OpenMRS data models diverge.
 
 ## Building and Deploying
 

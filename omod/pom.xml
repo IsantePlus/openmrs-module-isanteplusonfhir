@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.openmrs.module</groupId>
-		<artifactId>isantepluslabonfhir</artifactId>
+		<artifactId>isanteplusonfhir</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>isantepluslabonfhir-omod</artifactId>
+	<artifactId>isanteplusonfhir-omod</artifactId>
 	<packaging>jar</packaging>
 	<name>iSantePlus Lab on FHIR OMOD</name>
 	<description>Omod submodule for FHIR-based Laboratory workflows.</description>
@@ -19,7 +19,7 @@
 		</dependency>
 		<dependency>
 				<groupId>org.openmrs.module</groupId>
-				<artifactId>isantepluslabonfhir-api</artifactId>
+				<artifactId>isanteplusonfhir-api</artifactId>
 				<version>1.0.0-SNAPSHOT</version>
 		</dependency>
 		<dependency>

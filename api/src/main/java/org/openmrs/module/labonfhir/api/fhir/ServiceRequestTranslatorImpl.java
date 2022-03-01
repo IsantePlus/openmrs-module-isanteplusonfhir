@@ -41,7 +41,7 @@ import org.openmrs.module.fhir2.api.translators.PatientReferenceTranslator;
 import org.openmrs.module.fhir2.api.translators.PractitionerReferenceTranslator;
 import org.openmrs.module.fhir2.api.translators.ServiceRequestTranslator;
 import org.openmrs.module.fhir2.api.translators.impl.BaseReferenceHandlingTranslator;
-import org.openmrs.module.labonfhir.iSantePlusLabOnFhirConfig;
+import org.openmrs.module.labonfhir.iSantePlusOnFhirConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
@@ -56,7 +56,7 @@ public class ServiceRequestTranslatorImpl extends BaseReferenceHandlingTranslato
 	private static final int END_INDEX = 10;
 
 	@Autowired
-	private iSantePlusLabOnFhirConfig config;
+	private iSantePlusOnFhirConfig config;
 
 	@Autowired
 	private FhirTaskService taskService;

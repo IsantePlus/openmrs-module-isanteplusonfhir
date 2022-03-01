@@ -18,7 +18,7 @@ import org.openmrs.module.fhir2.FhirConstants;
 import org.openmrs.module.fhir2.api.dao.FhirServiceRequestDao;
 import org.openmrs.module.fhir2.api.dao.impl.BaseFhirDao;
 import org.openmrs.module.fhir2.api.search.param.SearchParameterMap;
-import org.openmrs.module.labonfhir.iSantePlusLabOnFhirConfig;
+import org.openmrs.module.labonfhir.iSantePlusOnFhirConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
@@ -29,7 +29,7 @@ import org.springframework.stereotype.Component;
 public class ServiceRequestDaoImpl extends BaseFhirDao<Obs> implements FhirServiceRequestDao<Obs> {
 
 	@Autowired
-	private iSantePlusLabOnFhirConfig config;
+	private iSantePlusOnFhirConfig config;
 
 	@Override
 	protected void setupSearchParams(Criteria criteria, SearchParameterMap theParams) {

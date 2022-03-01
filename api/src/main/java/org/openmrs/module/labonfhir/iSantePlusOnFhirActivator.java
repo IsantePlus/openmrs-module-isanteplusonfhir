@@ -12,8 +12,6 @@ package org.openmrs.module.labonfhir;
 import lombok.SneakyThrows;
 import org.openmrs.module.BaseModuleActivator;
 import org.openmrs.module.DaemonToken;
-import org.openmrs.module.DaemonTokenAware;
-import org.openmrs.module.labonfhir.api.OpenElisManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeansException;
@@ -23,16 +21,16 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
 @Component
-public class iSantePlusLabOnFhirActivator extends BaseModuleActivator implements ApplicationContextAware {
+public class iSantePlusOnFhirActivator extends BaseModuleActivator implements ApplicationContextAware {
 
-	private static final Logger log = LoggerFactory.getLogger(iSantePlusLabOnFhirActivator.class);
+	private static final Logger log = LoggerFactory.getLogger(iSantePlusOnFhirActivator.class);
 
 	private static ApplicationContext applicationContext;
 
 	private static DaemonToken daemonToken;
 
 	@Autowired
-	private iSantePlusLabOnFhirConfig config;
+	private iSantePlusOnFhirConfig config;
 
 	@SneakyThrows
 	@Override
