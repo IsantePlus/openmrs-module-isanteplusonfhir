@@ -15,11 +15,11 @@
     </build>
     <parent>
         <groupId>org.openmrs.module</groupId>
-        <artifactId>isantepluslabonfhir</artifactId>
+        <artifactId>isanteplusonfhir</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>isantepluslabonfhir-api</artifactId>
+    <artifactId>isanteplusonfhir-api</artifactId>
     <packaging>jar</packaging>
     <name>iSantePlus Lab on FHIR API</name>
     <description>API project for FHIR-based laboratory workflows</description>
@@ -40,10 +40,6 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.openmrs.module</groupId>
-            <artifactId>labonfhir-api</artifactId>
         </dependency>
     </dependencies>
 </project>
