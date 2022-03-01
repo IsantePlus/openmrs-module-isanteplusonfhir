@@ -30,10 +30,6 @@
             <artifactId>hapi-fhir-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.openmrs</groupId>
-            <artifactId>event-api</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.openmrs.module</groupId>
             <artifactId>fhir2-api</artifactId>
         </dependency>
