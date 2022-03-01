@@ -1,4 +1,4 @@
-package org.openmrs.module.labonfhir.api.fhir;
+package org.openmrs.module.isanteplusonfhir.api.fhir;
 /*
  * This Source Code Form is subject to the terms of the Mozilla Public License,
  * v. 2.0. If a copy of the MPL was not distributed with this file, You can
@@ -41,7 +41,7 @@ import org.openmrs.module.fhir2.api.translators.PatientReferenceTranslator;
 import org.openmrs.module.fhir2.api.translators.PractitionerReferenceTranslator;
 import org.openmrs.module.fhir2.api.translators.ServiceRequestTranslator;
 import org.openmrs.module.fhir2.api.translators.impl.BaseReferenceHandlingTranslator;
-import org.openmrs.module.labonfhir.iSantePlusOnFhirConfig;
+import org.openmrs.module.isanteplusonfhir.iSantePlusOnFhirConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;

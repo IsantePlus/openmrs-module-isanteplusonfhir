@@ -1,4 +1,4 @@
-package org.openmrs.module.labonfhir.api.fhir;
+package org.openmrs.module.isanteplusonfhir.api.fhir;
 
 import static org.hibernate.criterion.Restrictions.and;
 import static org.hibernate.criterion.Restrictions.or;
@@ -18,7 +18,7 @@ import org.openmrs.module.fhir2.FhirConstants;
 import org.openmrs.module.fhir2.api.dao.FhirServiceRequestDao;
 import org.openmrs.module.fhir2.api.dao.impl.BaseFhirDao;
 import org.openmrs.module.fhir2.api.search.param.SearchParameterMap;
-import org.openmrs.module.labonfhir.iSantePlusOnFhirConfig;
+import org.openmrs.module.isanteplusonfhir.iSantePlusOnFhirConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;

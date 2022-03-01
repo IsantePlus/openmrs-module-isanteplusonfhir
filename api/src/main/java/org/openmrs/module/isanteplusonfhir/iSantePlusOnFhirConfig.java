@@ -1,4 +1,4 @@
-package org.openmrs.module.labonfhir;
+package org.openmrs.module.isanteplusonfhir;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

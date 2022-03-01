@@ -1,4 +1,4 @@
-package org.openmrs.module.labonfhir.api.fhir;
+package org.openmrs.module.isanteplusonfhir.api.fhir;
 
 
 import java.util.HashSet;
