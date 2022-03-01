@@ -34,8 +34,8 @@ jobs:
           servers: |
             [{
                 "id": "github-packages",
-                "username": "${{ github.actor }}",
-                "password": "${{ secrets.GITHUB_TOKEN }}"
+                "username": "${{ secrets.RELEASE_USERNAME }}",
+                "password": "${{ secrets.RELEASE_TOKEN }}"
             }]
           properties: |
             [
@@ -51,5 +51,5 @@ jobs:
       - name: Publish package
         run: mvn -P github-packages -DskipTests -Dfindbugs.skip=true -Dpmd.skip=true -Dcpd.skip=true -B deploy
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
         if: github.event_name == 'release' && github.event.action == 'created'
